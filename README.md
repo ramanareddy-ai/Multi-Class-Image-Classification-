@@ -4,17 +4,17 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://tensorflow.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a state-of-the-art deep neural network for multi-class image classification, achieving:
 
-- ✅ **98%+ accuracy** on large datasets (100,000+ samples)
-- 🧠 **Multiple CNN architectures** (Custom CNN, ResNet50, EfficientNet)
-- 🔧 **Advanced data preprocessing** and augmentation techniques
-- 📊 **Comprehensive evaluation** and visualization tools
-- 🎨 **Real-time prediction** capabilities including webcam support
+- **98%+ accuracy** on large datasets (100,000+ samples)
+- **Multiple CNN architectures** (Custom CNN, ResNet50, EfficientNet)
+- **Advanced data preprocessing** and augmentation techniques
+- **Comprehensive evaluation** and visualization tools
+- **Real-time prediction** capabilities including webcam support
 
-## 🏗️ Architecture & Features
+## Architecture & Features
 
 ### Deep Learning Models
 - **Custom CNN**: Optimized architecture with batch normalization and dropout
@@ -34,7 +34,7 @@ This project implements a state-of-the-art deep neural network for multi-class i
 - **GPU Optimization**: Automatic GPU detection and mixed precision
 - **Model Checkpointing**: Save best models during training
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 multi_class_image_classification/
@@ -64,7 +64,7 @@ multi_class_image_classification/
 └── README.md                     # This file
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -159,7 +159,7 @@ Our models achieve exceptional performance:
 
 *Results on 100,000 sample dataset with 10 classes*
 
-## 🛠️ Advanced Usage
+##  Advanced Usage
 
 ### Custom Training Pipeline
 
@@ -193,7 +193,7 @@ results = classifier.predict_batch(image_paths, batch_size=64)
 classifier.create_prediction_report(image_paths, 'results/')
 ```
 
-## 📈 Monitoring & Visualization
+##  Monitoring & Visualization
 
 The project includes comprehensive monitoring tools:
 
@@ -208,7 +208,7 @@ Launch TensorBoard:
 tensorboard --logdir logs/
 ```
 
-## 🔬 Technical Implementation
+##  Technical Implementation
 
 ### Data Preprocessing Pipeline
 - **Normalization**: Pixel values scaled to [0,1]
@@ -229,7 +229,7 @@ tensorboard --logdir logs/
 - **Early Stopping**: Prevent overfitting
 - **Mixed Precision**: Faster training on modern GPUs
 
-## 🧪 Testing & Validation
+##  Testing & Validation
 
 Run the test suite:
 ```bash
@@ -240,7 +240,7 @@ python -m pytest tests/
 python -m pytest tests/ --cov=src --cov-report=html
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
