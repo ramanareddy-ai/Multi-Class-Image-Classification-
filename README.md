@@ -1,8 +1,4 @@
-# Multi-Class Image Classification with Deep Neural Networks
-
-🚀 **A comprehensive deep learning project achieving 98%+ accuracy on image classification tasks**
-
-*Project Duration: April 2025 - July 2025*
+ **A comprehensive deep learning project achieving 98%+ accuracy on image classification tasks**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://tensorflow.org)
@@ -263,13 +259,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **ImageNet** for pretrained model weights
 - **Computer Vision Community** for research and best practices
 
-## 📞 Support & Contact
-
-- 📧 **Issues**: [GitHub Issues](../../issues)
-- 📚 **Documentation**: [Project Wiki](../../wiki)
-- 💬 **Discussions**: [GitHub Discussions](../../discussions)
-
----
 
 **Built with ❤️ for the deep learning community**
 
